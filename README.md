@@ -37,6 +37,8 @@ objects from S3, which allows using credentials.
     s3_enabled=1
     key_id=<YOURKEY>
     secret_key=<YOURSECRET>
+    
+The baseurl must be the hosted-style (`<YOURBUCKET>.s3.amazonaws.com`) or website-style (`<YOURBUCKET>.s3-website-<AWS-region>.amazonaws.com`) not the path-style (`http://s3.amazonaws.com/<YOURBUCKET>/`).
 
 # YUM edge cases (baseurl)
 
